@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
+
   <!-- Googles fonts -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
 
@@ -27,25 +28,22 @@
   <section id="title">
 
     <div class="container-fluid">
-
-
-
       <!-- Nav Bar -->
 
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Tindog</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#tindognavbar"
-            aria-controls="tindognavbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="tindognavbar">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">Contact</a>
-              <a class="nav-link" href="#pricing">Pricing</a>
-              <a class="nav-link" href="#">Download</a>
-            </div>
+        <!-- <div class="container-fluid"> -->
+        <a class="navbar-brand" href="#">tindog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#tindognavbar"
+          aria-controls="tindognavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="tindognavbar">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="#">Download</a>
           </div>
+          <!-- </div> -->
         </div>
 
       </nav>
@@ -58,11 +56,12 @@
       <div class="row">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg">Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg">Download</button>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i>
+            Download</button>
         </div>
         <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
         </div>
       </div>
     </div>
@@ -152,8 +151,8 @@
   <section id="cta">
 
     <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button  type="button" class="btn btn-dark">Download</button>
-    <button  type="button" class="btn btn-light">Download</button>
+    <button type="button" class="btn btn-dark">Download</button>
+    <button type="button" class="btn btn-light">Download</button>
 
   </section>
 
