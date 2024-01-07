@@ -52,3 +52,33 @@ font-family: 'Ubuntu', sans-serif; */
  width:60%;
  transform: rotate(25deg);
 }
+
+/* Features Heading and Body */
+#features{
+ margin: 100px 100px 0 100px;
+}
+
+.features-component{
+ /* min-width: 30%; */
+ margin: 0 auto;
+ text-align: center;
+ padding: 50px;
+}
+.features-custom{
+ color: #ef8172;
+ font-size: 3rem;
+ margin-bottom: 1rem;
+ 
+}
+.features-custom:hover{
+ color:#ff4c68;
+}
+.features-head{
+ font-family: 'Montserrat',sans-serif;
+ font-size: 1.5rem;
+ font-weight: 800;
+}
+
+.features-body{
+ color:#8f8f8f;
+}
