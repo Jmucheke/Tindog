@@ -1,117 +1,125 @@
-body{
+body {
  font-family: "Montserrat", sans-serif;
 }
 
-#title{
+#title {
  background-color: #ff4c68;
- color:#fff;
+ color: #fff;
 }
 
-section .container-fluid{
- padding:3% 15%;
+section .container-fluid {
+ padding: 3% 15%;
 }
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 
-.row h1{
+.row h1 {
  font-family: 'Montserrat-Black', sans-serif;
- font-size:3.5rem;
+ font-size: 3.5rem;
  line-height: 1.5;
  font-weight: 800;
 }
 
 /* Navigation Bar */
 
-.navbar{
+.navbar {
  padding-bottom: 4.5rem;
 }
 
-.navbar-brand{
- font-family:"Ubuntu";
- font-size:2.5rem;
- font-weight: bold; 
+.navbar-brand {
+ font-family: "Ubuntu";
+ font-size: 2.5rem;
+ font-weight: bold;
 }
 
-.nav-item{
+.nav-item {
  padding: 0 18px;
 }
 
-.nav-link{
- font-size:1.2rem;
- font-family:"Montserrat";
+.nav-link {
+ font-size: 1.2rem;
+ font-family: "Montserrat";
 }
 
 /* Doownload Buttons */
-.download-button{
+.download-button {
  margin: 5% 3% 5% 0;
 }
 
 /* Title image */
-.title-image{
- width:60%;
+.title-image {
+ width: 60%;
  transform: rotate(25deg);
 }
 
 /* Features Heading and Body */
-#features{
+#features {
  margin: 100px 100px 0 100px;
 }
 
-.feature-box{
+.feature-box {
  /* min-width: 30%; */
  margin: 0 auto;
  text-align: center;
  padding: 50px;
 }
-.features-custom{
+
+.features-custom {
  color: #ef8172;
  font-size: 3rem;
  margin-bottom: 1rem;
- 
+
 }
-.features-custom:hover{
- color:#ff4c68;
+
+.features-custom:hover {
+ color: #ff4c68;
 }
-.features-head{
- font-family: 'Montserrat',sans-serif;
+
+.features-head {
+ font-family: 'Montserrat', sans-serif;
  font-size: 1.5rem;
  font-weight: 800;
 }
 
-.features-body{
- color:#8f8f8f;
+.features-body {
+ color: #8f8f8f;
 }
 
 /* Testimonials section */
-#testimonials{
- padding:7% 15%;
- text-align:center;
- background-color:#ef8172;
- color:#fff;
-} 
-h2{
+#testimonials {
+
+ text-align: center;
+ background-color: #ef8172;
+ color: #fff;
+}
+
+h2 {
  font-family: 'Montserrat', sans-serif;
  font-size: 3rem;
  line-height: 1.5;
  font-weight: 700;
 }
 
-.testimonial-image{
+.carousel-item {
+ padding: 7% 15%;
+}
+
+.testimonial-image {
  width: 10%;
  border-radius: 100%;
- margin:20px;
+ margin: 20px;
 }
 
 /* Press Section */
 
-#press{
+#press {
  background-color: #ef8172;
  text-align: center;
  padding-bottom: 20px;
 }
 
-.press-logo{
+.press-logo {
  width: 15%;
  margin: 20px 20px 50px;
 }
