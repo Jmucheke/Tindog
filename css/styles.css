@@ -132,3 +132,21 @@ h2 {
 .pricing-column{
  padding: 3% 2%;
 }
+
+/* 
+div{
+    height:100px;
+    width:100px;
+    border:1px solid;
+}
+
+.red{
+    background-color:red;
+    z-index:1;
+}
+.yellow{
+    background-color:yellow;
+}
+.blue{
+    background-color:blue;
+} */
