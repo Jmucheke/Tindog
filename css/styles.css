@@ -49,16 +49,18 @@ font-family: 'Ubuntu', sans-serif; */
 
 /* Title image */
 .title-image {
- width: 60%;
+ width: 200px;
  transform: rotate(25deg);
- /* position:absolute; */
+ position:absolute;
+ z-index: 1;
 }
 
 /* Features Heading and Body */
 #features {
  margin: 100px 100px 0 100px;
- background-color: #fff;
- /* position: relative; */
+ background-color: yellow;
+ position: relative;
+ z-index: 1;
 }
 
 .feature-box {
