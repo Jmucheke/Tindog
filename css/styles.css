@@ -57,8 +57,9 @@ font-family: 'Ubuntu', sans-serif; */
 
 /* Features Heading and Body */
 #features {
- margin: 100px 100px 0 100px;
- background-color: yellow;
+ padding: 7% 15%;
+ margin: 0 100px;
+ background-color:#fff;
  position: relative;
  z-index: 1;
 }
@@ -67,7 +68,7 @@ font-family: 'Ubuntu', sans-serif; */
  /* min-width: 30%; */
  margin: 0 auto;
  text-align: center;
- padding: 50px;
+ padding: 4.5%;
 }
 
 .features-custom {
