@@ -68,12 +68,12 @@ font-family: 'Ubuntu', sans-serif; */
  padding: 4.5%;
 }
 
-.features-custom {
+/* .features-custom {
  color: #ef8172;
  font-size: 3rem;
  margin-bottom: 1rem;
 /* z-index: 10; */
-}
+} */
 
 .features-custom:hover {
  color: #ff4c68;
