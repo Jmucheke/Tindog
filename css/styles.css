@@ -49,9 +49,10 @@ font-family: 'Ubuntu', sans-serif; */
 
 /* Title image */
 .title-image {
- width: 250px;
+ width: 295px;
  transform: rotate(25deg);
  position:absolute;
+ right:30%
 }
 
 /* Features Heading and Body */
@@ -63,22 +64,22 @@ font-family: 'Ubuntu', sans-serif; */
 
 .feature-box {
  /* min-width: 30%; */
- margin: 0 auto;
+ /* margin: 0 auto; */
  text-align: center;
  padding: 4.5%;
 }
 
-/* .features-custom {
+.features-custom {
  color: #ef8172;
  font-size: 3rem;
  margin-bottom: 1rem;
 /* z-index: 10; */
-} */
+}
 
 .features-custom:hover {
  color: #ff4c68;
 }
-
+   
 .features-head {
  font-family: 'Montserrat', sans-serif;
  font-size: 1.5rem;
@@ -134,4 +135,16 @@ h2 {
 
 .pricing-column{
  padding: 3% 2%;
+} 
+
+
+/* Media Queries */
+@media (max-width:1280px){
+ #title{
+  text-align:center;
+ }
+ .title-image{ 
+  position:static;
+  transform:rotate(0);
+ }
 }
