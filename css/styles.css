@@ -1,12 +1,19 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
-  
+
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
@@ -20,9 +27,16 @@ h2 {
   font-weight: 800;
 }
 
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 
 
@@ -79,7 +93,7 @@ font-family: 'Ubuntu', sans-serif; */
 .feature-box {
   /* min-width: 30%; */
   /* margin: 0 auto; */
-  text-align: center;
+
   padding: 4.5%;
 }
 
@@ -107,9 +121,15 @@ font-family: 'Ubuntu', sans-serif; */
 /* Testimonials section */
 #testimonials {
 
-  text-align: center;
+
   background-color: #ef8172;
   color: #fff;
+}
+
+testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
 }
 
 
@@ -128,7 +148,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 #press {
   background-color: #ef8172;
-  text-align: center;
+
   padding-bottom: 20px;
 }
 
@@ -142,14 +162,17 @@ font-family: 'Ubuntu', sans-serif; */
   padding: 100px;
 }
 
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
 .pricing-column {
   padding: 3% 2%;
 }
 
 /* footer section */
-#footer {
-  text-align: center;
-}
 
 .footer-icons {
   padding: 4rem 1.5rem 0.5rem;
@@ -180,10 +203,10 @@ font-family: 'Ubuntu', sans-serif; */
 #cta {
   background-color: #ff4c68;
   color: white;
-  text-align: center;
+
 }
 
-#cta h1 {
+.cta-heading {
   font-family: 'Montserrat-Black', sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
